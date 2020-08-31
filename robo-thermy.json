@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "robo-thermy",
+  "private_key_id": "dc6f63af46c2c8abb484a8debfaaff4649aae517",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2UA2Y1FAdkorX\nsjVnMttGz9bu603HZQeVrnZqNyue0VfofogTrisIFh7EaKc5gNYES4ymV2QCTPto\nRf/0V9DNyBLsTTb8TW1IiKgcJ+PUzvzjc63Knf8GtKaXKSlT0iT73CKSXHXOZ3MO\nrzKXu1IC/vebWTgY4mtovC0Ajzow7XULxWP4jjeNYufAIt0qLaZSLP8MQNlANvZ+\nXSlPZ7h4fiBTSLuLPu9kwWzFWc2Y3swOzEGR+MMnZuNxvMrhMkdzrm4aL7kMZx9D\ngCaK1e2rNewMXl21hIBHLtJmddT6a4084SJ/yrg8V96saFV0MfU9Ax5rsR/rsZg1\nQaRFvHyxAgMBAAECggEABK7bXY5RGUReEoa0bFhkJW5R7qDO1nkN9AJnbmiowz9s\ngRdseIhyGKbkTw5i4sVQYgt8gzqWEiDO+a2IIss1bO7HbShZ2erlfG4ttszvw1P2\njyNl3sE2l4IRECuVkR6SFoHf5bdwK39Q51r420jLlVH+M2BsImgBAy+HvqafM5nf\nuSeiCVIrr7lcvA/5bvXDezAEB/3/6pDqKwpNJ7QYdOeozIWIc3yUTk7HV6ZEi555\nlwrLhOTnbtvgssKU3GPNp1I0klBYsDY8xc4soJADB3rbOmd9sBi4PL31D5Z8YUuy\ngrg5dWt6z2cy96m5CLaRTmwCiYD7WdjE6JJXci+IwQKBgQDzRpb2Leag5z/5o1Z2\n2co7gcDo+YpDwZMv4rEdlzBMUXPjkK1iJYp37d6pxzGYW3h4BGqYAEdOXijpv8vR\nhEXF9vmW8af/UyDs/SdJSoAXsKPOBlAjIz9P7xgQVkydliZU1F+re0bcsSiv4B/v\nc1+3EWhPoijyB7VMQSVpMIkKwQKBgQC/2S5wFGVhRPwmK9JSTsy3K4zttPUeGbNb\nGgI4fAGaegiP5VUzn7vkgZC5yNSRhoER/fx9FqRztcvixMPRyBurWptxLt9f13PM\n+IYiYOeUr2FRmiqwmixGUINKMl6d5DTThcWc0rPbj7635n7UF6xdcPeMTVhWXgDW\nx4tX9mGd8QKBgQCr4ODBt/ZtElVZ6/Qn7oH6fxcrwzrT2k1ClNhsPqhqE1ZcnphR\ncpKdXxtlOo4oxd+cdApXsEKw9MfVNqQrOFgPoQoAgmYed74YkleSaaeMlUl2Q3GV\nEc8mi5el20MwR6h3YMDjKCsNu8EyWZhWll42un7HXJuvPJDz+kcTRa5dQQKBgQCz\nXcF+BoO2ioHYylXMoGHjy3Lqd6pIpyy6OzniR4ZUQE4rAvZC2tAX109Rc8PR/1hD\nUxyycu30RP9HmEGgrB+6eG8mRfWQLObWt3DpSYKaz9IEMkhBbxN/9hyZzTgLFOaS\n8NoOQizoVZ+xXm4rq6p6fnjjkxjJPwA3zr6n0fH4cQKBgCgVGHnsdD7MPFyZqVcs\n51bev8sU8ltLRDy6uHdwyZY5pSbw9w8z+uAUd266htUYKuNjYxA2BO/vFdB0jb/H\nPAEKKPQt8pJWPebvIQbJhVO4NtSIQ7AaPq6VK0rAjQVNuUHykkA68/hEJwXLrMHj\nGs4D7VCQOu1Ba7J99uCahHcc\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ubks4@robo-thermy.iam.gserviceaccount.com",
+  "client_id": "115245790639396376094",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ubks4%40robo-thermy.iam.gserviceaccount.com"
+}

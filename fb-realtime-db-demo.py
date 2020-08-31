@@ -3,40 +3,37 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('firebase-adminsdk.json')
+cred = credentials.Certificate('robo-thermy.json')
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://<your_app_name>.firebaseio.com/'
+    'databaseURL': 'https://robo-thermy.firebaseio.com/'
 })
 
 # Save data
 ref = db.reference('/')
 ref.set(
     {
-    'boxes': 
+    'informacoes': 
             {
-                'box001': {
-                    'color': 'red',
-                    'width': 1,
-                    'height': 3,
-                    'length': 2
+                'id': {
+                    'name': 'totem01',
+                    'pos': 'lat: -25.4967922 // long: -49.3110747',
+                    'date':'31/08/2020'
                 },
-                'box002': {
-                    'color': 'green',
-                    'width': 1,
-                    'height': 2,
-                    'length': 3
+                'monitoramento': {
+                    'bateria': 80,
+                    'status': 'ON'
                 },
-                'box003': {
-                    'color': 'yellow',
-                    'width': 3,
-                    'height': 2,
-                    'length': 1
+                'totem': {
+                    'image': 'teste',
+                    'temperature': 36.5,
+                    'mask': 'yes',
+                    'id_people': '09123812'
                 },
             }
     }
 )
-
+'''
 # Update data
 ref = db.reference('boxes')
 box_ref = ref.child('box001')
@@ -140,3 +137,4 @@ ref = db.reference('boxes')
 snapshot = ref.order_by_child('length').equal_to(3).get()
 for key in snapshot:
     print(key)
+'''
